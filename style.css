@@ -39,6 +39,9 @@ section,
 footer {
   padding: 3rem 5rem;
 }
+section{
+  padding-top: 90px;
+}
 
 #features{
 background-color: rgb(252, 240, 255);
