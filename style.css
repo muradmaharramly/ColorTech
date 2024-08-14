@@ -435,6 +435,15 @@ footer h4 {
 footer .row {
   margin-bottom: 6rem;
 }
+.row.footer-contact .column{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.row.footer-contact .column p{
+  margin-left: 5px;
+}
 .footer-about {
   display: flex;
   flex-direction: column;
@@ -465,8 +474,28 @@ footer p {
   text-align: center;
   max-width: 600px;
 }
-footer .footer-copyright{
-  max-width: 100% !important;
+.info-div{
+  border-top: 2px solid var(--base-shade-1);
+  padding: 15px;
+  font-size: 16px;
+  color: white !important;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.info-div a{
+  text-decoration: none;
+  color: var(--white-shade-1);
+  border-bottom: 2px solid black;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+}
+.info-div a:hover{
+  border-bottom: 2px solid var(--white-shade-1);
 }
 
 /*------ Scroll Top Button ------*/
@@ -567,7 +596,7 @@ footer .footer-copyright{
     justify-content: center;
   }
   .download-app img {
-    width: 30%;
+    width: 40%;
   }
   .app-feature div {
     justify-content: center;
@@ -616,6 +645,9 @@ footer .footer-copyright{
   }
   nav ul a:hover {
     color: var(--base-shade-1);
+  }
+  .download-app img {
+    width: 60%;
   }
   #scroll-top {
     height: 6rem;
