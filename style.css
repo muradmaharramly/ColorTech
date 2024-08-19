@@ -829,6 +829,9 @@ footer p {
     border:2px solid var(--base-shade-1) !important;
 
   }
+  .circle{
+    display: none;
+  }
   .btn-container {
     justify-content: center;
   }
