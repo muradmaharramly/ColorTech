@@ -619,7 +619,7 @@ section.hero {
   width: 75%;
 }
 .app-feature {
-  border-bottom: 1.5px dashed rgba(var(--grad-color-1), 0.4);
+  border-bottom: 1px dashed var(--base-shade-1);
 }
 .app-feature:not(:last-child) {
   margin-bottom: 1.5rem;
